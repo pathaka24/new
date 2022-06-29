@@ -1,0 +1,80 @@
+.main {
+    display: flex;
+    background-color: #22272B;
+}
+
+.right {
+    
+}
+
+.mainCon {
+   
+    height: 100vh;
+    background-color: #22272B;
+    display: flex;
+    flex-direction: column;
+      
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.mainCon h3 {
+  font-size: 1.2rem;
+  color: rgb(236, 168, 44);
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.mainCon h1 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.mainCon p {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+    font-weight: 500;
+}
+.mainCon  ul {
+   list-style: bullet;
+   color: rgb(224, 66, 66);
+   font-size: 1rem;
+   line-height: 2rem;
+   font-weight: 500;
+   margin-top: 2rem;
+}
+
+.infoCon {
+    display:flex ;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 786px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner {
+        width: 100%;
+       
+         height: '100vh';
+            background-size:'cover';
+            background-position:'50% 50%'
+    }
+    .mainCon h1 {
+        font-size: 2rem;
+    }
+    .mainCon {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

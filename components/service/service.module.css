@@ -1,0 +1,46 @@
+ 
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    margin-left: 2rem;
+    margin-right: auto;
+}
+ 
+.titles p{
+    color: brown;
+
+}
+
+
+.titles h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        display: grid;
+         
+        
+        gap: 30px 20px;
+    
+    }
+     
+    .icons {
+        display: none;
+    }
+    .titles h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}

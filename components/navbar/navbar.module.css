@@ -1,0 +1,44 @@
+.navTop {
+    display: flex;
+    background-color: rgb(35, 41, 59);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navTopLeft {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+.navTopRight {
+    display: flex;
+    align-items: center;
+}
+
+.navTopRightAdd , .navTopRightTime {
+    display: flex;
+    align-items: center;
+    margin-right : 2rem;
+    justify-content: space-around;
+}
+ 
+.icons {
+    font-size: 1.2rem;
+     margin-right: 0.5rem;
+}
+.navText {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .navTop {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+}
